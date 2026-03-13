@@ -62,6 +62,43 @@ Farmer enters only their **district and state**. The system automatically:
 
 ---
 
+## Website Screenshots
+ 
+### Hero Section
+![Hero Section](assets/screenshots/hero.png)
+ 
+### Pillar 1 - Smart Drip Irrigation
+![Irrigation Section](screenshots/1.png)
+ 
+### Pillar 2 - Drone Crop Disease Detection
+![Crop Health Section](screenshots/2.png)
+ 
+### Pillar 3 - Crop Type Recommender
+![Crop Recommender Section](screenshots/3.png)
+
+---
+ 
+## Sample Input Images
+ 
+> These are example crop leaf images you can use to test **Pillar 2 — Disease Detection** via the `/api/health/analyze` endpoint.
+ 
+### Healthy Leaf
+![Healthy Crop](assets/sample-images/healthy_leaf.jpg)
+> Use this to verify the model returns `Status: Healthy` with no action required.
+ 
+### Fungi / Blight Affected
+![Fungi Affected Crop](assets/sample-images/fungi_leaf.jpg)
+> Expected output: `Fungi Detected`, severity Medium–High, fungicide recommendation.
+ 
+### Insect Damage
+![Insect Damaged Crop](assets/sample-images/insect_leaf.jpg)
+> Expected output: `Insect Damage`, insecticide recommendation with dosage.
+ 
+### Bacterial Spot
+![Bacterial Spot](assets/sample-images/bacterial_leaf.jpg)
+> Expected output: `Bacterial Spot`, bactericide recommendation.
+ 
+
 ## Tech Stack
 
 | Layer | Technology |
