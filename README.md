@@ -254,7 +254,7 @@ Once the backend is running, open this in your browser:
 http://localhost:8000/docs
 ```
 
-### Test Pillar 1 — Irrigation Prediction
+### Test Pillar 1 - Irrigation Prediction
 
 Find `POST /api/irrigation/predict` → Click **Try it out** → Enter:
 
@@ -267,11 +267,11 @@ Find `POST /api/irrigation/predict` → Click **Try it out** → Enter:
 }
 ```
 
-### Test Pillar 2 — Disease Detection
+### Test Pillar 2 - Disease Detection
 
 Find `POST /api/health/analyze` → Upload a crop leaf image.
 
-### Test Pillar 3 — Crop Recommendation
+### Test Pillar 3 - Crop Recommendation
 
 Find `POST /api/recommend/crop` → Click **Try it out** → Enter:
 
