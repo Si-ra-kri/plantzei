@@ -1,4 +1,4 @@
-# 🌱 AgroSense — Smart Farming. Smarter Decisions.
+# 🌱 plAntzeI - Smart Farming. Smarter Decisions.
 
 An AI-powered precision agriculture platform that helps farmers make data-driven decisions across three core areas: **smart irrigation**, **crop disease detection via drone**, and **intelligent crop recommendation**.
 
@@ -24,13 +24,13 @@ An AI-powered precision agriculture platform that helps farmers make data-driven
 
 ## Overview
 
-AgroSense is a full-stack agritech prototype built for a startup proposal. It combines IoT sensor data, real-time weather APIs, news intelligence, and trained ML models to provide actionable recommendations to farmers — all through a clean, minimal web interface.
+AgroSense is a full-stack agritech prototype built for a startup proposal. It combines IoT sensor data, real-time weather APIs, news intelligence, and trained ML models to provide actionable recommendations to farmers - all through a clean, minimal web interface.
 
 ---
 
 ## Three Pillars
 
-### Pillar 1 — Smart Drip Irrigation
+### Pillar 1 - Smart Drip Irrigation
 Predicts the exact water flow rate and duration for drip irrigation based on:
 - Real-time soil moisture and temperature (from IoT sensors)
 - Current weather conditions
@@ -40,7 +40,7 @@ Predicts the exact water flow rate and duration for drip irrigation based on:
 
 ---
 
-### Pillar 2 — Drone-Based Crop Disease Detection
+### Pillar 2 - Drone-Based Crop Disease Detection
 A drone captures aerial images of crops and the AI model:
 - Detects disease type (fungi, bacterial, insect damage, rust, mosaic virus)
 - Determines severity (Low / Medium / High)
@@ -50,7 +50,7 @@ A drone captures aerial images of crops and the AI model:
 
 ---
 
-### Pillar 3 — Crop Type Recommender
+### Pillar 3 - Crop Type Recommender
 Farmer enters only their **district and state**. The system automatically:
 - Fetches current weather via OpenWeatherMap API
 - Detects current season from the calendar month
@@ -116,26 +116,26 @@ Agrotech startup/
 
 Make sure you have the following installed before starting:
 
-- **Python 3.10 or above** — [Download here](https://www.python.org/downloads/)
-- **Git** — [Download here](https://git-scm.com/)
+- **Python 3.10 or above** - [Download here](https://www.python.org/downloads/)
+- **Git** - [Download here](https://git-scm.com/)
 - A modern browser (Chrome, Edge, Firefox)
 
 ---
 
 ## Setup & Installation
 
-### Step 1 — Clone the repository
+### Step 1 - Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/agrosense.git
-cd agrosense
+git clone https://github.com/Si-ra-kri/plantzei.git
+cd plantzei
 ```
 
-### Step 2 — Create and activate a virtual environment
+### Step 2 - Create and activate a virtual environment
 
 **Windows (PowerShell):**
 ```powershell
-cd agrosense-backend
+cd backend
 python -m venv venv
 
 # If execution policy blocks activation, run this once:
@@ -146,14 +146,14 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 
 **Mac / Linux:**
 ```bash
-cd agrosense-backend
+cd backend
 python3 -m venv venv
 source venv/bin/activate
 ```
 
 Your terminal prompt should now show `(venv)` at the start.
 
-### Step 3 — Install all dependencies
+### Step 3 - Install all dependencies
 
 ```bash
 pip install -r requirements.txt
@@ -170,9 +170,9 @@ This project uses two free external APIs. Register and get your keys before runn
 | OpenWeatherMap | Live weather + geocoding | [openweathermap.org/api](https://openweathermap.org/api) |
 | NewsData.io | Recent calamity news by location | [newsdata.io](https://newsdata.io) |
 
-### Step 4 — Create your `.env` file
+### Step 4 - Create your `.env` file
 
-Inside the `agrosense-backend/` folder, create a file named `.env` (copy from the example):
+Inside the `backend/` folder, create a file named `.env` (copy from the example):
 
 **Windows:**
 ```powershell
@@ -200,9 +200,9 @@ MODEL_DIR=./models
 
 ## Running the Project
 
-You need **two things running simultaneously** — the backend server and the frontend file.
+You need **two things running simultaneously** - the backend server and the frontend file.
 
-### Step 5 — Start the Backend
+### Step 5 - Start the Backend
 
 Open a terminal inside `agrosense-backend/` with the virtual environment activated:
 
@@ -220,13 +220,13 @@ INFO:     Application startup complete.
 
 Leave this terminal running.
 
-### Step 6 — Open the Frontend
+### Step 6 - Open the Frontend
 
 Open a **second terminal** and run:
 
 **Windows:**
 ```powershell
-cd "Agrotech startup\frontend"
+cd "plantzei\frontend"
 start index.html
 ```
 
@@ -310,8 +310,8 @@ Should return: `{"status": "ok", "version": "1.0.0"}`
 ### Real-time Data APIs
 
 **OpenWeatherMap**
-- Geocoding API — converts district/state name to coordinates
-- Current Weather API — fetches live temperature, humidity, rainfall
+- Geocoding API - converts district/state name to coordinates
+- Current Weather API - fetches live temperature, humidity, rainfall
 
 **NewsData.io**
 - Searches recent news headlines for the given district
