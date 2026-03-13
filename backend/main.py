@@ -1,5 +1,5 @@
 """
-AgroSense — FastAPI Backend
+plAntzeI - FastAPI Backend
 main.py: App entry point, middleware, model loader, router registration
 """
 
