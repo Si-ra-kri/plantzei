@@ -87,7 +87,7 @@ Farmer enters only their **district and state**. The system automatically:
 > Use this to verify the model returns `Status: Healthy` with no action required.
  
 ### Fungi / Blight Affected
-![Fungi Affected Crop](assets/fungi_leaf.jpg)
+![Fungi Affected Crop](assets/0034a551-9512-44e5-ba6c-827f85ecc688___RS_Erly.B 9432.jpg)
 > Expected output: `Fungi Detected`, severity Medium–High, fungicide recommendation.
  
 ### Bacterial Spot
