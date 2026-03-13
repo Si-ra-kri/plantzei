@@ -1,4 +1,4 @@
-# AgroSense Backend
+# Backend
 
 AI-powered precision agriculture backend built with FastAPI.
 
