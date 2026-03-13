@@ -204,7 +204,7 @@ You need **two things running simultaneously** - the backend server and the fron
 
 ### Step 5 - Start the Backend
 
-Open a terminal inside `agrosense-backend/` with the virtual environment activated:
+Open a terminal inside `backend/` with the virtual environment activated:
 
 ```bash
 uvicorn main:app --reload --port 8000
