@@ -84,15 +84,13 @@ Farmer enters only their **district and state**. The system automatically:
  
 ### Healthy Leaf
 ![Healthy Crop](assets/00120a18-ff90-46e4-92fb-2b7a10345bd3___RS_GLSp%209357.jpg)
-> Use this to verify the model returns `Status: Healthy` with no action required.
  
 ### Fungi / Blight Affected
 ![Fungi Affected Crop](assets/0034a551-9512-44e5-ba6c-827f85ecc688___RS_Erly.B%209432.jpg)
-> Expected output: `Fungi Detected`, severity Medium–High, fungicide recommendation.
- 
+
 ### Bacterial Spot
-![Bacterial Spot](assets/bacterial_leaf.jpg)
-> Expected output: `Bacterial Spot`, bactericide recommendation.
+![Bacterial Spot](assets/0051e5e8-d1c4-4a84-bf3a-a426cdad6285___RS_LB%204640.jpg)
+
  
 
 ## Tech Stack
@@ -273,7 +271,7 @@ open frontend/index.html
 xdg-open frontend/index.html
 ```
 
-This opens the AgroSense website directly in your browser.
+This opens the plAntzeI website directly in your browser.
 
 ---
 
