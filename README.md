@@ -83,7 +83,7 @@ Farmer enters only their **district and state**. The system automatically:
 > These are example crop leaf images you can use to test **Pillar 2 — Disease Detection** via the `/api/health/analyze` endpoint.
  
 ### Healthy Leaf
-![Healthy Crop](assets/healthy_leaf.jpg)
+![Healthy Crop](assets/https://github.com/Si-ra-kri/plantzei/blob/main/assets/00120a18-ff90-46e4-92fb-2b7a10345bd3___RS_GLSp%209357.jpg
 > Use this to verify the model returns `Status: Healthy` with no action required.
  
 ### Fungi / Blight Affected
