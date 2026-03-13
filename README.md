@@ -65,16 +65,16 @@ Farmer enters only their **district and state**. The system automatically:
 ## Website Screenshots
  
 ### Hero Section
-![Hero Section](assets/screenshots/hero.png)
+![Hero Section](screenshots/1.png)
  
 ### Pillar 1 - Smart Drip Irrigation
-![Irrigation Section](screenshots/1.png)
+![Irrigation Section](screenshots/2.png)
  
 ### Pillar 2 - Drone Crop Disease Detection
-![Crop Health Section](screenshots/2.png)
+![Crop Health Section](screenshots/3.png)
  
 ### Pillar 3 - Crop Type Recommender
-![Crop Recommender Section](screenshots/3.png)
+![Crop Recommender Section](screenshots/4.png)
 
 ---
  
