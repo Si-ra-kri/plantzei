@@ -83,19 +83,15 @@ Farmer enters only their **district and state**. The system automatically:
 > These are example crop leaf images you can use to test **Pillar 2 — Disease Detection** via the `/api/health/analyze` endpoint.
  
 ### Healthy Leaf
-![Healthy Crop](assets/sample-images/healthy_leaf.jpg)
+![Healthy Crop](assets/healthy_leaf.jpg)
 > Use this to verify the model returns `Status: Healthy` with no action required.
  
 ### Fungi / Blight Affected
-![Fungi Affected Crop](assets/sample-images/fungi_leaf.jpg)
+![Fungi Affected Crop](assets/fungi_leaf.jpg)
 > Expected output: `Fungi Detected`, severity Medium–High, fungicide recommendation.
  
-### Insect Damage
-![Insect Damaged Crop](assets/sample-images/insect_leaf.jpg)
-> Expected output: `Insect Damage`, insecticide recommendation with dosage.
- 
 ### Bacterial Spot
-![Bacterial Spot](assets/sample-images/bacterial_leaf.jpg)
+![Bacterial Spot](assets/bacterial_leaf.jpg)
 > Expected output: `Bacterial Spot`, bactericide recommendation.
  
 
